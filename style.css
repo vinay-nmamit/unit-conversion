@@ -14,7 +14,7 @@
     align-items: center;
     min-height: 100vh;
     background: linear-gradient(135deg, #02f1f9, #ed0008);
-    background-size: 600% 600%;
+    background-size: 400% 400%;
     animation: gradientAnimation 20s ease infinite;
   }
   
@@ -36,6 +36,13 @@
     }
   }
   
+  #heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+  }
+
   .container {
     display: flex;
     flex-direction: column;
